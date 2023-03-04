@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="SurveyForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@500&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="bg-image"></div>
+    <h1>Ice Cream Survey Form</h1>
+    <h3>Flavor of ice cream defines flavor of life</h3>
+
+    <form id="survey-form">
+      <label>Enter your name
+      <input type="text" placeholder="Enter your full name" required /></label>
+      <label>Enter your email
+      <input type="text" placeholder="Enter your email" required/></label>
+      <label>Enter your age
+      <input type="number" min="5" max="120" placeholder="Enter your age (in years)" /></label>
+      <label>Select your age
+        <select>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Others</option>
+          <option>Prefer not to say</option>
+        </select>
+      </label>
+      <label for="radio1">
+        What do you prefer?
+        <input type="radio" name="container" id="radio1">Cup</input>
+        <label for="radio2"></label><input type="radio" name="container" id="radio2">Cone</input>
+      
+      <label>
+        Checkmark your favorite flavors
+        <input type="checkbox" value="Vanilla">Vanilla</input>
+        <input type="checkbox" value="Chocolate">Chocolate</input>
+        <input type="checkbox" value="Strawberry">Strawberry</input>
+        <input type="checkbox" value="Butter">Butter Pecan</input>
+        <input type="checkbox" value="Mint">Mint</input>
+      </label>
+      <label>Share your interesting ice cream story
+        <textarea placeholder="Start typing here..." rows="5" cols="50"></textarea> 
+      </label>
+      <input type="submit" id="Submit"/>
+    </form>
+  </body>
+</html>

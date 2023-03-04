@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1009781645/thumb/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Zilla Slab', serif;
+    margin: 5px 30px;
+}
+h3 {
+    
+    color: rgb(239, 20, 93);
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+}
+label{
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', serif;
+
+}
+input, select, textarea {
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+#survey-form {
+    text-align: left;
+    margin: auto;
+    width: 30%;
+}
+#Submit {
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    color: red;
+    font-size: 17px;
+    background-color: rgb(210, 209, 209);
+}
+#Submit:hover {
+    background-color: rgb(91, 91, 235);
+    color: white;
+}
